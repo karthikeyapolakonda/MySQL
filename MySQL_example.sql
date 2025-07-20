@@ -20,3 +20,4 @@ update EMPLOYEE set dept = 'Manager' where name = 'Dave';
 insert into EMPLOYEE(empId, name) VALUES(7, 'Nani');
 select * from EMPLOYEE;
 select empId, name from EMPLOYEE where dept = 'Sales';
+select * from EMPLOYEE where dept like "Sales" order by name;
